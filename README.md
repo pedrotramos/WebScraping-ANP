@@ -1,6 +1,6 @@
 # Scraping ANP's Oil & Gas Data with Selenium
 
-A company participating in Petrobras' divestment processes asked me to obtain the historical production data of a series of mature fields, some of which have more than 1000 wells and have been explored since the 80s. The data is publicly available in <a href="https://www.gov.br/anp/">ANP's website</a> but is not downloadable, thus the need to use <a href="https://www.selenium.dev/">Selenium</a>.
+A company participating in Petrobras' divestment processes asked me in 2019 to obtain the historical production data of a series of mature fields, some of which have more than 1000 wells and have been explored since the 80s. The data is publicly available in <a href="https://www.gov.br/anp/">ANP's website</a> but was not downloadable at the time, thus the need to use <a href="https://www.selenium.dev/">Selenium</a>.
 
 In order to use this project, it's important to set which fields should be scraped in the fields.txt file. Additionally, the user needs to <a href="https://chromedriver.chromium.org/downloads">download the Chrome Driver</a> compatible with the version of Google Chrome installed in the machine used. Finally, just run the Python script and wait for the extraction to be completed. The output is a group of Excel files containing the data obtained.
 
